@@ -1,6 +1,6 @@
 var recipes = [{
         name: "Shrimp Scampi",
-        image: "images/photo-1455619452474-d2be8b1e70cd.avif",
+        image: "img/photo-1546069901-ba9599a7e63c (1).avif",
         description: "Garlicky shrimp in a white wine butter sauce",
         difficulty: "Easy",
         category: "Seafood",
@@ -48,7 +48,7 @@ var recipes = [{
 
     {
         name: "Classic Burger",
-        image: "images/ClassicBurger.jpg",
+        image: "img/photo-1612874742237-6526221588e3.avif",
         description: "Juicy beef burger with cheese and fresh vegetables",
         difficulty: "Easy",
         category: "Beef",
@@ -97,7 +97,7 @@ var recipes = [{
 
     {
         name: "Margherita Pizza",
-        image: "images/MargheritaPizza.jpg",
+        image: "img/photo-1601050690597-df0568f70950.avif",
         description: "Classic pizza topped with tomato, mozzarella and basil",
         difficulty: "Medium",
         category: "Italian",
@@ -147,7 +147,7 @@ var recipes = [{
 
     {
         name: "Chicken Alfredo",
-        image: "images/ChickenAlfredo.jpg",
+        image: "img/photo-1574894709920-11b28e7367e3.avif",
         description: "Creamy pasta with tender chicken and parmesan cheese",
         difficulty: "Easy",
         category: "Chicken",
@@ -198,7 +198,7 @@ var recipes = [{
 
     {
         name: "Chicken Shawarma",
-        image: "images/ChickenShawarma.jpg",
+        image: "img/photo-1574071318508-1cdbab80d002.avif",
         description: "Spiced chicken served with vegetables and garlic sauce",
         difficulty: "Easy",
         category: "Middle Eastern",
@@ -249,7 +249,7 @@ var recipes = [{
 
     {
         name: "Koshary",
-        image: "images/Koshary.jpg",
+        image: "img/photo-1565557623262-b51c2513a641.avif",
         description: "Egyptian comfort food made with rice, lentils and pasta",
         difficulty: "Medium",
         category: "Egyptian",
@@ -301,7 +301,7 @@ var recipes = [{
 
     {
         name: "Beef Steak",
-        image: "images/BeefSteak.jpg",
+        image: "img/photo-1565299585323-38d6b0865b47.avif",
         description: "Juicy pan-seared beef steak with herbs and butter",
         difficulty: "Medium",
         category: "Beef",
@@ -351,7 +351,7 @@ var recipes = [{
 
     {
         name: "Chicken Biryani",
-        image: "images/ChickenBiryani.jpg",
+        image: "img/photo-1529692236671-f1f6cf9683ba.avif",
         description: "Fragrant basmati rice cooked with spiced chicken",
         difficulty: "Medium",
         category: "Indian",
@@ -403,7 +403,7 @@ var recipes = [{
 
     {
         name: "Spaghetti Bolognese",
-        image: "images/Spaghetti.jpg",
+        image: "img/photo-1612874742237-6526221588e3 (1).avif",
         description: "Spaghetti served with rich tomato and beef sauce",
         difficulty: "Easy",
         category: "Italian",
@@ -454,7 +454,7 @@ var recipes = [{
 
     {
         name: "Grilled Chicken",
-        image: "images/GrilledChicken.jpg",
+        image: "img/photo-1546069901-eacef0df6022.avif",
         description: "Juicy grilled chicken breast with herbs and lemon",
         difficulty: "Easy",
         category: "Chicken",
@@ -502,7 +502,7 @@ var recipes = [{
 
     {
         name: "Creamy Mushroom Pasta",
-        image: "images/pasta.jpg",
+        image: "img/photo-1546069901-eacef0df6022.avif",
         description: "Creamy pasta with garlic mushrooms and parmesan",
         difficulty: "Easy",
         category: "Vegetarian",
@@ -554,7 +554,7 @@ var recipes = [{
 
     {
         name: "Beef Tacos",
-        image: "images/BeefTacos.jpg",
+        image: "img/photo-1565299585323-38d6b0865b47.avif",
         description: "Creamy pasta with garlic mushrooms and parmesan",
         difficulty: "Easy",
         category: "Mexican",
@@ -604,7 +604,7 @@ var recipes = [{
 
     {
         name: "Lasagna",
-        image: "images/Lasagna.jpg",
+        image: "img/photo-1574894709920-11b28e7367e3.avif",
         description: "Layered pasta with beef, tomato sauce and melted cheese",
         difficulty: "Medium",
         category: "Italian",
@@ -656,7 +656,7 @@ var recipes = [{
 
     {
         name: "Chicken Curry",
-        image: "images/ChickenCurry.jpg",
+        image: "img/photo-1565557623262-b51c2513a641.avif",
         description: "Tender chicken cooked in a creamy spiced curry sauce",
         difficulty: "Easy",
         category: "Indian",
@@ -707,7 +707,7 @@ var recipes = [{
 
     {
         name: "Grilled Salmon",
-        image: "images/GrilledSalmon.jpg",
+        image: "img/photo-1547592166-23ac45744acd.avif",
         description: "Tender salmon fillet grilled with lemon and herbs",
         difficulty: "Easy",
         category: "Seafood",
@@ -757,7 +757,7 @@ var recipes = [{
 
     {
         name: "Chicken Fajitas",
-        image: "images/ChickenFajitas.jpg",
+        image: "img/photo-1546069901-eacef0df6022.avif",
         description: "Spiced chicken with colorful peppers and onions",
         difficulty: "Easy",
         category: "Mexican",
@@ -808,7 +808,7 @@ var recipes = [{
 
     {
         name: "Falafel",
-        image: "images/images.jpg",
+        image: "img/bICjklvP-1280.jpg",
         description: "Crispy chickpea falafel served with tahini and vegetables",
         difficulty: "Medium",
         category: "Middle Eastern",
@@ -859,7 +859,7 @@ var recipes = [{
 
     {
         name: "Chicken Caesar Salad",
-        image: "images/ChickenCaesarSalad.jpg",
+        image: "img/photo-1546069901-ba9599a7e63c (1).avif",
         description: "Crisp lettuce with grilled chicken, parmesan and Caesar dressing",
         difficulty: "Easy",
         category: "Salad",
@@ -905,106 +905,6 @@ var recipes = [{
             "Add dressing just before serving.",
             "Use freshly grated parmesan."
         ]
-    },
-
-    {
-        name: "Beef Stroganoff",
-        image: "images/BeefStroganoff.jpg",
-        description: "Tender beef strips in a creamy mushroom sauce",
-        difficulty: "Medium",
-        category: "Beef",
-        rating: 4.7,
-        reviews: 151,
-        prepTime: 15,
-        cookTime: 25,
-        servings: 4,
-
-        ingredients: [
-            "500g beef strips",
-            "250g mushrooms",
-            "1 onion",
-            "1 cup sour cream",
-            "1 tablespoon mustard",
-            "2 tablespoons butter",
-            "Salt and pepper",
-            "Garlic"
-        ],
-
-        instructions: [
-            "Sear the beef quickly.",
-            "Remove beef from the pan.",
-            "Cook onions and mushrooms.",
-            "Add garlic and mustard.",
-            "Add sour cream.",
-            "Return the beef to the sauce.",
-            "Simmer briefly.",
-            "Serve immediately."
-        ],
-
-        nutrition: {
-            calories: "630 kcal",
-            protein: "44g",
-            carbohydrates: "18g",
-            fat: "40g",
-            fiber: "3g",
-            sodium: "620mg"
-        },
-
-        tips: [
-            "Don't overcook the beef.",
-            "Use high heat for searing.",
-            "Add sour cream at low heat."
-        ]
-    },
-
-    {
-        name: "Penne Arrabbiata",
-        image: "images/PenneArrabbiata.jpg",
-        description: "Spicy tomato pasta with garlic and chili",
-        difficulty: "Easy",
-        category: "Italian",
-        rating: 4.6,
-        reviews: 138,
-        prepTime: 10,
-        cookTime: 20,
-        servings: 3,
-
-        ingredients: [
-            "300g penne pasta",
-            "400g tomato sauce",
-            "3 cloves garlic",
-            "Red chili flakes",
-            "Olive oil",
-            "Fresh basil",
-            "Parmesan",
-            "Black pepper"
-        ],
-
-        instructions: [
-            "Cook the pasta.",
-            "Heat olive oil with garlic and chili.",
-            "Add tomato sauce.",
-            "Simmer for 10 minutes.",
-            "Add cooked pasta.",
-            "Season with black pepper.",
-            "Finish with basil and parmesan.",
-            "Serve immediately."
-        ],
-
-        nutrition: {
-            calories: "520 kcal",
-            protein: "18g",
-            carbohydrates: "82g",
-            fat: "14g",
-            fiber: "8g",
-            sodium: "610mg"
-        },
-
-        tips: [
-            "Adjust chili according to taste.",
-            "Save some pasta water.",
-            "Use fresh basil."
-        ]
     }
 ];
 
@@ -1043,9 +943,9 @@ contentImage += `                                    <span
                                     <span
                                         class="r-span px-3 py-1 rounded-5 d-flex align-items-center justify-content-center">${recipes[randomIndex].category}</span>`
 
-    imageHero += `                        <img id="recipeImage" class="rounded-5 rounded-end-0 w-100 object-fit-cover p-0 m-0"
-                            src="img/photo-1546793665-c74683f339c1.avif" alt="Recipe Image">
-                        <div class="rating-badge position-absolute bg-white px-3 py-2 rounded-4">
+    imageHero += `                        <img id="recipeImage" class="rounded-5 rounded-end-0 w-100 h-100 object-fit-fill p-0 m-0"
+                            src="${recipes[randomIndex].image}" alt="Recipe Image">
+                        <div class="rating-badge position-absolute bg-white px-3 py-2 rounded-4"> 
                             <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
                             <span class="fw-bold pe-1" id="rating">${recipes[randomIndex].rating}</span>
                             <span class="sec-span text-secondary reviews-count" id="reviews">(${recipes[randomIndex].reviews} reviews)</span>
@@ -1073,7 +973,7 @@ contentImage += `                                    <span
                                     <p>${recipes[randomIndex].description}</p>`
 
     Kcal += ` <div class="recipe-box p-1 rounded-4">
-                                        <div class="d-flex gap-3">
+                                        <div class="d-flex gap-1">
                                             <div
                                                 class="all-box rounded-3 d-flex align-items-center justify-content-between col-md-6 p-3">
                                                 <div class="d-flex align-items-center">
@@ -1098,7 +998,7 @@ contentImage += `                                    <span
                                                 <div><span>${recipes[randomIndex].nutrition.protein}</span></div>
                                             </div>
                                         </div>
-                                        <div class="d-flex gap-3 mt-3">
+                                        <div class="d-flex gap-1 mt-3">
                                             <div
                                                 class="all-box rounded-3 d-flex align-items-center justify-content-between col-md-6 p-3">
                                                 <div class="d-flex align-items-center">
@@ -1124,7 +1024,7 @@ contentImage += `                                    <span
                                                 <div><span>${recipes[randomIndex].nutrition.fat}</span></div>
                                             </div>
                                         </div>
-                                        <div class="d-flex gap-3 mt-3">
+                                        <div class="d-flex gap-1 mt-3">
                                             <div
                                                 class="all-box rounded-3 d-flex align-items-center justify-content-between col-md-6 p-3">
                                                 <div class="d-flex align-items-center">
