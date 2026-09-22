@@ -1,0 +1,302 @@
+body {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffedd4;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-icon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #ff6b00, #ff3800);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(255, 85, 0, 0.25);
+}
+
+.brand-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.brand-text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6a7282;
+}
+
+.nav-right,
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.nav-icons i {
+    font-size: 18px;
+    color: #4a5568;
+    cursor: pointer;
+}
+
+.nav-icons i:hover {
+    color: #ff4600;
+}
+
+.profile-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ff6b00;
+}
+
+main {
+    background-color: #fffbea;
+
+}
+
+main .all {
+    width: 82%;
+}
+
+.rating-badge {
+    top: 25px;
+    left: 25px;
+}
+
+.rating-badge .sec-span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.meta-info-card {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.meta-item .f-span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-right .l-span {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #00825e;
+    background-color: #dbfce7;
+}
+
+.card-right .r-span {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #1461ec;
+    background-color: #dbeafe;
+}
+
+.card-right h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.card-right p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #4a5565;
+}
+
+.card-right .save-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #ffedd4;
+}
+
+.card-right .save-btn:hover {
+    background-color: oklch(90.1% .076 70.697);
+}
+
+.step-num {
+    width: 30px;
+    height: 30px;
+    background-color: #ff6b00;
+}
+
+.box-all {
+    background-color: #fff9eb;
+}
+
+.recipe-box {
+    height: 330px;
+
+    overflow: auto;
+}
+
+.recipe-scroll-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+.prep-alert {
+    background-color: #fef2f2;
+    color: #b3202b;
+    border: 0;
+    border-left: .3125rem solid #f0303c;
+    border-radius: .9375rem;
+    padding: 1rem;
+}
+
+.alert-icon {
+    color: #f0303c;
+}
+
+.alert-title {
+    color: #9f0712;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.alert-dec {
+    font-size: .875rem;
+    color: #e7000b;
+    font-weight: 400;
+}
+
+.recipe-box .one {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ff6b00;
+}
+
+.recipe-box p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #364153;
+}
+
+.all-box {
+    background-color: #f9fafb;
+}
+
+.custom-tabs {
+  border-bottom: 1px solid #e5e7eb !important;
+}
+
+.custom-tabs .nav-link {
+  border: none !important;
+  background-color: transparent !important;
+  color: #6c757d !important;
+  font-weight: 500;
+  padding: 12px 20px;
+  position: relative;
+  transition: color 0.2s ease-in-out;
+}
+.custom-tabs .nav-link:hover {
+  color: #ff6b00 !important;
+}
+
+.custom-tabs .nav-link.active {
+  color: #ff6b00 !important; 
+  font-weight: 600;
+}
+
+.custom-tabs .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ff6b00;
+  border-radius: 2px 2px 0 0;
+}
+
+.fire-box {
+    width: 40px;
+    height: 40px;
+    background-color: #ffedd4;
+}
+
+.tip-card {
+    background-color: #fffdf2;
+    border-left: 5px solid #f2994a;
+    color: #4f4f4f;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+}
+
+.tip-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #e07a12;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    flex-shrink: 0;
+}
+
+.tip-text {
+    color: #4a5568;
+}
+
+
+.btn-try-again {
+    background: linear-gradient(135deg, #ff5e00 0%, #ff3b30 100%);
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 60, 48, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn-try-again:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 18px rgba(255, 60, 48, 0.5);
+}
